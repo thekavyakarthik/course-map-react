@@ -1,0 +1,54 @@
+h3 {
+  margin: 0;
+  margin-bottom: min(1vh, 1vw);
+}
+
+/* COURSE MODIFY */
+.Side-bar {
+  width: fit-content;
+  /* height: auto; */
+  background-color: beige;
+  display: grid;
+  place-items: center;
+  align-content: baseline;
+  min-height: 92vh;
+  margin: min(1vw, 1vh);
+}
+
+/*COURSE ADD*/
+.Course-add-container {
+  background-color: burlywood;
+  border: 2px solid rgb(191, 131, 53);
+  width: fit-content;
+  /* margin: min(1vw, 1vh); */
+  margin-bottom: min(1vw, 1vh);
+  padding: min(0.5vw, 0.5vh);
+  display: inline-flex; 
+  flex-direction: column; 
+  height: auto;
+}
+.Course-add-form {
+  margin: min(0.5vw, 0.5vh) min(2vw, 2vh);
+}
+.Course-add {
+  /*display: block;*/
+  max-width: 18vw;
+  display: flex;
+  align-items: center;
+}
+.User-input {
+  margin-left: min(1vw, 1vh);
+  text-align: center;
+  margin-right: auto;
+  flex-grow: 1;      
+  /* width: 0;          */
+}
+
+/*COURSE LIST TABLE*/
+.Course-list-table {
+  /* background-color: aqua; */
+  width: fit-content;
+  /* margin: 0 min(1vw, 1vh); */
+  margin-bottom: min(1vh, 1vw);
+  padding: min(0.5vw, 0.5vh);
+}
